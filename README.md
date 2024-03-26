@@ -22,7 +22,7 @@ jobs:
   noResponse:
     runs-on: ubuntu-latest
     steps:
-      - uses: lee-dohm/no-response@v0.5.0
+      - uses: ehuelsmann/no-response@v0.5.0
         with:
           token: ${{ github.token }}
 ```
